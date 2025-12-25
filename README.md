@@ -7,7 +7,7 @@ Imitation of operating system with 6 robots.
 Run python file main.py
 
 
-##Logic of each code component
+## Logic of each code component
 
 1. main.py (The Kernel & Fault Tolerance Manager)
 This is the heart of the simulation. It acts as the Operating System Kernel.
@@ -83,7 +83,7 @@ Link Visualization: It draws Blue lines for IPC messages and Purple lines for Ta
 The Ready Queue Monitor: On the right side, it shows exactly which tasks are waiting in the Scheduler's queue.
 
 
-##Summary of Interaction
+## Summary of Interaction
 When you run the code:
 
 1.	main.py starts.
@@ -91,3 +91,4 @@ When you run the code:
 3.	The robot_task asks mutex.py for permission to update data.
 4.	The robot_task sends a message through message_queue.py.
 5.	visualizer.py draws these events on your screen.
+
